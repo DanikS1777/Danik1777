@@ -6,7 +6,10 @@ namespace laba1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Izdelie izdelie = new Izdelie();
+            izdelie.Name = "Some name";
+            izdelie.Cipher = "Some cipher";
+            izdelie.Amount = 5;
         }
     }
 }
